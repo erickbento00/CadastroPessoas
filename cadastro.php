@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <br>
-                <p><b>G�nero</b></p>
+                <p><b>Gênero</b></p>
                 <input type="radio" name="genero" value="Masculino" id="masculino" class="radioCadastro" required <?=$masculino?>>
                 <label for="masculino" class="labelGenero">Masculino</label>
                 <input type="radio" name="genero" value="Feminino" id="feminino" class="radioCadastro" required <?=$feminino?>>
