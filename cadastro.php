@@ -8,7 +8,7 @@
     <title>Cadastro de Clientes</title>
 </head>
 <body>
-    <div class="box">
+    <div class="box" id="box">
         <?php 
             require_once("conexaoBD.php");
             if(isset($_GET['id'])){
@@ -52,11 +52,11 @@
                     </div>
                     <div class="campoCadastro">
                         <label for="celular"><b>Celular</b></label>
-                        <input type="text" name="celular" id="celular" class="inputCadastro" value="<?=$dados['celular']?>" placeholder="Informe seu número" required>
+                        <input type="text" name="celular" id="celular" class="inputCadastro" value="<?=$dados['celular']?>" placeholder="Informe seu nï¿½mero" required>
                     </div>
                 </div>
                 <br>
-                <p><b>Gênero</b></p>
+                <p><b>Gï¿½nero</b></p>
                 <input type="radio" name="genero" value="Masculino" id="masculino" class="radioCadastro" required <?=$masculino?>>
                 <label for="masculino" class="labelGenero">Masculino</label>
                 <input type="radio" name="genero" value="Feminino" id="feminino" class="radioCadastro" required <?=$feminino?>>
