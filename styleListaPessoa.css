@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 32px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 50px;
+    background-color: rgb(0, 127, 255, 0.6);
+}
+
+.butaoNovoCadastro{
+    /* superior, direita, inferior, esquerda */
+    padding: 30px 50px 25px 40px;
+}
+
+.butaoNovoCadastro a {
+    text-decoration: none;
+    padding: 8px 30px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+
+    border: none;
+    color: white;
+    background-color: rgb(0, 127, 255, 0.8);
+}
+
+.tabelaPessoa {
+    display: flex;
+    justify-content: center;
+}
+
+table, th{
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+
+th { 
+    border: 1px solid silver;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(0, 127, 255, 0.6);
+}
+
+td {
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+td > a {
+    padding: 0px 5px 0 5px;
+}
+
+.footer{
+    text-align: right;
+}
+
+.botaoEditar{
+    color: rgb(0, 127, 255);
+}
+
+.botaoExluir{
+    color: red;
+}
+
+.filtroPessoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filtroPessoa input{
+    margin-left: 5px;
+    
+    border-radius: 10px;
+    padding: 2px 0 2px 5px;    
+}
+
+input:focus {
+    outline: none;
+}
